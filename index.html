@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullahi Mohammed Babangida | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="javascript:void(0)" onclick="showPage('home')" id="nav-home" class="active">Home</a>
+      <a href="javascript:void(0)" onclick="showPage('about')" id="nav-about">About</a>
+      <a href="javascript:void(0)" onclick="showPage('skills')" id="nav-skills">Skills</a>
+      <a href="javascript:void(0)" onclick="showPage('education')" id="nav-education">Education</a>
+      <a href="javascript:void(0)" onclick="showPage('goals')" id="nav-goals">Goals</a>
+      <a href="javascript:void(0)" onclick="showPage('achievements')" id="nav-achievements">Achievements</a>
+      <a href="javascript:void(0)" onclick="showPage('certificates')" id="nav-certificates">Certificates</a>
+      <a href="javascript:void(0)" onclick="showPage('resume')" id="nav-resume">Resume</a>
+      <a href="javascript:void(0)" onclick="showPage('contact')" id="nav-contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="page-home" class="container hero page-view active-view">
+    <h1>Hi, I'm Abdullahi Mohammed Babangida</h1>
+    <p>Software Engineering Student | Northwest University Kano (Level 200)</p>
+    <p>I build clean, responsive front-end websites.</p>
+    <div class="cta-buttons">
+      <a href="javascript:void(0)" onclick="showPage('skills')" class="btn">My Skills</a>
+      <a href="javascript:void(0)" onclick="showPage('resume')" class="btn btn-outline">View Resume</a>
+    </div>
+  </main>
+
+  <main id="page-about" class="container page-view">
+    <h1>About Me</h1>
+    <div class="about-card">
+      <p>I am a Level 200 Software Engineering student passionate about responsive web development, semantic markup, and modern layout systems.</p>
+      <div class="about-highlights">
+        <div>Kano, Nigeria</div>
+        <div>Front-End Developer</div>
+        <div>Admission No: UG24SEN1049</div>
+      </div>
+    </div>
+  </main>
+
+  <main id="page-skills" class="container page-view">
+    <h1>My Skills</h1>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h2>Responsive Web Design</h2>
+        <p>Creating fluid layouts optimized for mobile, tablet, and desktop viewports.</p>
+      </div>
+      <div class="skill-card">
+        <h2>HTML & CSS</h2>
+        <p>Structuring semantic components and implementing modern style layouts.</p>
+      </div>
+      <div class="skill-card">
+        <h2>Git & GitHub</h2>
+        <p>Version control management and deploying projects via GitHub Pages.</p>
+      </div>
+    </div>
+  </main>
+
+  <main id="page-education" class="container page-view">
+    <h1>Education</h1>
+    <div class="edu-card">
+      <h2>B.Sc. Software Engineering</h2>
+      <p><strong>Institution:</strong> Northwest University Kano</p>
+      <p><strong>Status:</strong> <span class="status">Level 200</span></p>
+    </div>
+    <div class="edu-card">
+      <h2>freeCodeCamp</h2>
+      <p><strong>Course:</strong> Responsive Web Design Certification</p>
+      <a href="javascript:void(0)" onclick="showPage('certificates')" class="btn-small">View Certificate →</a>
+    </div>
+  </main>
+
+  <main id="page-goals" class="container page-view">
+    <h1>My Goals</h1>
+    <div class="goal-card">
+      <h2> Core Focus</h2>
+      <p>Mastering front-end technologies and expanding into full-stack architecture to build real-world software solutions.</p>
+    </div>
+  </main>
+
+  <main id="page-achievements" class="container page-view">
+    <h1>My Achievements</h1>
+    <div class="achievement-grid">
+      <div class="achievement-card">
+        <h2>freeCodeCamp Certified</h2>
+        <p>Successfully completed the Responsive Web Design curriculum.</p>
+        <a href="javascript:void(0)" onclick="showPage('certificates')" class="btn-small">Verify →</a>
+      </div>
+      <div class="achievement-card">
+        <h2>Portfolio Project</h2>
+        <p>Built and deployed a fully functional multi-page single-app architecture portfolio.</p>
+      </div>
+    </div>
+  </main>
+
+  <main id="page-certificates" class="container page-view">
+    <h1>My Certificates</h1>
+    <div class="cert-card">
+      <h2>Responsive Web Design</h2>
+      <p><strong>Issuer:</strong> freeCodeCamp</p>
+      <a href="https://www.freecodecamp.org/certification/muhammadjago/responsive-web-design target="_blank" class="btn">Verify Certificate</a>
+    </div>
+  </main>
+
+  <div id="page-resume" class="page-view">
+    <main class="resume">
+      <header class="resume-header" style="background:transparent; color:#333; padding:0;">
+        <h1>Abdullahi M. Babangida</h1>
+        <p>Software Engineering Student | ID: UG24SEN1049</p>
+        <div class="contact">
+          <p>Phone Nuber: 07083446077 | Email Address: muhammadjagonwu@gmail.com</p>
+        </div>
+      </header>
+      <section>
+        <h2>Education</h2>
+        <p><strong>B.Sc. Software Engineering (Level 200)</strong><br>Northwest University Kano</p>
+      </section>
+      <section>
+        <h2>Core Skillsets</h2>
+        <ul class="skills-list">
+          <li>Responsive Web Design</li>
+          <li>HTML / CSS Structuring</li>
+          <li>Git Version Control</li>
+        </ul>
+      </section>
+      <footer style="background:none; margin-top:10px; padding:0;">
+        <a href="javascript:void(0)" onclick="showPage('home')" style="color:#0056b3; font-weight:bold;">← Back to Portfolio</a>
+      </footer>
+    </main>
+  </div>
+
+  <main id="page-contact" class="container page-view">
+    <h1>Get In Touch</h1>
+    <div class="contact-card">
+      <div class="contact-item">
+        <h3>Email Address</h3>
+        <a href="mailto:muhammadjagonwu@gmail.com">muhammadjagonwu@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <h3>Phone Number</h3>
+        <a href="tel:07083446077">0708 344 6077</a>
+      </div>
+    </div>
+
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message simulation successful!');">
+      <h2>Send a Message</h2>
+      <label>Name</label>
+      <input type="text" placeholder="Your Name" required>
+      <label>Email</label>
+      <input type="email" placeholder="Your Email" required>
+      <label>Message</label>
+      <textarea rows="4" placeholder="Type your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Abdullahi Mohammed Babangida.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
