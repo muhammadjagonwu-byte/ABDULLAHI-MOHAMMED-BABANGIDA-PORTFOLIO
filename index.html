@@ -13,6 +13,7 @@
       <a href="javascript:void(0)" onclick="showPage('home')" id="nav-home" class="active">Home</a>
       <a href="javascript:void(0)" onclick="showPage('about')" id="nav-about">About</a>
       <a href="javascript:void(0)" onclick="showPage('skills')" id="nav-skills">Skills</a>
+      <a href="javascript:void(0)" onclick="showPage('media')" id="nav-media">Media</a>
       <a href="javascript:void(0)" onclick="showPage('education')" id="nav-education">Education</a>
       <a href="javascript:void(0)" onclick="showPage('goals')" id="nav-goals">Goals</a>
       <a href="javascript:void(0)" onclick="showPage('achievements')" id="nav-achievements">Achievements</a>
@@ -62,6 +63,46 @@
     </div>
   </main>
 
+  <main id="page-media" class="container page-view">
+    <h1>Media & Interactive Showcase</h1>
+    
+    <div class="media-grid">
+      <div class="media-card">
+        <h2>Audio Integration</h2>
+        <p>Listen to an introduction or sample clip:</p>
+        <audio controls class="custom-audio">
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div class="media-card">
+        <h2>Featured Video</h2>
+        <p>Watch this video directly on my portfolio:</p>
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="YouTube video player" 
+            style="border: 0;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="media-card">
+        <h2>Live Project Preview</h2>
+        <p>Interact with a web project embedded directly below:</p>
+        <iframe 
+          src="https://www.tvet.education.gov.ng/"
+          class="project-iframe"
+          title="Project Demo Preview" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </main>
+
   <main id="page-education" class="container page-view">
     <h1>Education</h1>
     <div class="edu-card">
@@ -104,17 +145,17 @@
     <div class="cert-card">
       <h2>Responsive Web Design</h2>
       <p><strong>Issuer:</strong> freeCodeCamp</p>
-      <a href="https://www.freecodecamp.org/certification/muhammadjago/responsive-web-design target="_blank" class="btn">Verify Certificate</a>
+      <a href="https://www.freecodecamp.org/certification/muhammadjago/responsive-web-design" target="_blank" class="btn">Verify Certificate</a>
     </div>
   </main>
 
-  <div id="page-resume" class="page-view">
-    <main class="resume">
+  <main id="page-resume" class="container page-view">
+    <div class="resume">
       <header class="resume-header" style="background:transparent; color:#333; padding:0;">
         <h1>Abdullahi M. Babangida</h1>
         <p>Software Engineering Student | ID: UG24SEN1049</p>
         <div class="contact">
-          <p>Phone Nuber: 07083446077 | Email Address: muhammadjagonwu@gmail.com</p>
+          <p>Phone Number: 07083446077 | Email Address: muhammadjagonwu@gmail.com</p>
         </div>
       </header>
       <section>
@@ -132,8 +173,8 @@
       <footer style="background:none; margin-top:10px; padding:0;">
         <a href="javascript:void(0)" onclick="showPage('home')" style="color:#0056b3; font-weight:bold;">← Back to Portfolio</a>
       </footer>
-    </main>
-  </div>
+    </div>
+  </main>
 
   <main id="page-contact" class="container page-view">
     <h1>Get In Touch</h1>
